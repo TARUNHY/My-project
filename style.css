@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCe4pdPXqxKOf5D0l6LzVfkdJBO7E6mkYy6DtSYZUf7Pja5qUBQD8frz1p7hdT-W0yNjM&usqp=CAU);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    color : white;
+  
+} 
+.body-section {
+    height: 85vh;
+    box-direction: flex;
+    flex: column;
+    justify-content: center;
+   
+
+}
+.main-h1 {
+    font-family: 'Poppins', sans-serif;
+   
+}
+.main-p {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+   
+}
+.box-left {
+    text-align: right;
+    padding-left: 150px;
+}
+.item-nav {
+    color: white;
+}
+.item-nav:hover{
+    color : darkgreen;
+}
+.about{
+    text-align: center;
+    font-size : 50px
+}
+.cont-info {
+    
+        text-align: center;
+        font-size : 50px
+        
+}
+.para {
+    font-family: 'Dancing Script';
+    font-style: initial;
+
+}
+.contact-me{
+    text-align: center;
+    font-size : 50px
+}
+
+
+.para1 {
+    text-align: center;
+    color :orangered;
+}
+.social-icon {
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+    padding : 10px;
+   
+
+}
+.my-logo {
+    clip-path: circle();
+}
